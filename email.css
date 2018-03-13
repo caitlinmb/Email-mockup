@@ -1,0 +1,118 @@
+@media screen and (max-width: 950px) {
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    color: black;
+    background-color:#ededed; 
+
+}
+
+.main-container {
+    width: 75%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+
+ul {
+    list-style: none;
+    display: block;
+    background-color: rgb(58, 60, 61);
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 10px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    
+    
+}
+
+ul li {
+    padding: 0px 40px 10px 40px;
+    display: inline;
+   
+
+}
+
+h1 {
+    font-weight: 600 !important; 
+    padding: 25px 0px 25px 0;
+    margin-top: 0px;
+    font-family:'Poiret One', cursive;
+
+}
+
+
+a {
+    text-decoration:  none;
+    color: ghostwhite;
+    font-family: 'Open Sans';
+}
+
+
+
+a:hover {
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans';
+    line-height: 1.7;    
+    display:inline-grid;
+    width: 400px;
+    border: solid;
+    border-width: 4px;
+    border-color: rgb(58, 60, 61);
+    padding: 25px 10px 25px 10px; 
+    background-color: rgba(228, 228, 228, 1);
+    
+}
+
+.back {
+    background-color: rgba(228, 228, 228, 0.5);
+    padding-left: auto;
+    padding-right: auto;
+}
+.section-top {
+   /* background-color: blue; */
+   background-image: url("img/air-bubbles-diving-underwater-blow-62307.jpeg");
+   background-size: cover;
+   padding: 20px 15px 20px 15px;
+   color:black;
+    
+}
+
+.section-top h1 {
+    background-color: slategrey;
+    color: ghostwhite;
+}
+
+.section-top a {
+    color: black;
+}
+
+.section-bottom {
+   /* background-color: green;*/
+   color: rgb(218, 194, 194);
+   background-image: url(img/trees.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;  
+   color: black;
+   border-bottom-left-radius: 0.5em;
+   border-bottom-right-radius: 0.5em;
+   margin-bottom: 25px;
+}
+
+.section-bottom a {
+    color: black;
+}
+.section-bottom h1 {
+    margin: 0;
+}
