@@ -13,15 +13,28 @@ body {
 }
 
 .main-container {
-    width: 75%;
+    width: 60%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     padding-top: 20px;
 }
 
+.opt {
+    padding: 0px 30px 0px 30px;
+    
 
-ul {
+}
+
+#opt-S {
+    padding-left: 0px !important;
+}
+#opt-A {
+    padding: 0px 50px 0px 50px !important;
+    margin: 0px 10px 0px 10px !important;
+}
+
+.menu {
     list-style: none;
     display: block;
     background-color: rgb(58, 60, 61);
@@ -33,8 +46,8 @@ ul {
     
 }
 
-ul li {
-    padding: 0px 40px 10px 40px;
+ .menu li {
+   
     display: inline;
    
 
@@ -57,8 +70,9 @@ a {
 
 
 
-a:hover {
-    color: black;
+.menu a:hover {
+    color:antiquewhite;
+    text-decoration: overline;
 }
 
 p {
