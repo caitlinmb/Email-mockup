@@ -107,9 +107,17 @@ p {
     color: ghostwhite;
 }
 
-.section-top a {
+.section-top a  {
     color: black;
+    
 }
+
+.section-top a:hover{
+    text-decoration: underline;
+    text-underline-position: under; 
+}
+
+
 
 .section-bottom {
    /* background-color: green;*/
@@ -126,6 +134,12 @@ p {
 
 .section-bottom a {
     color: black;
+}
+
+.section-bottom a:hover {
+    text-decoration: underline;
+    color: black;
+    text-underline-position: under; 
 }
 .section-bottom h1 {
     margin: 0;
